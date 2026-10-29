@@ -21,7 +21,7 @@ let historySearchEnd = "";
 let historyLoading = false;
 
 const MIN_QUANTITY = 1;
-const MAX_QUANTITY = 30;
+const MAX_QUANTITY = 1000;
 
 const money = (value) =>
   new Intl.NumberFormat("ja-JP", {
